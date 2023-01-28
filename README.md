@@ -39,10 +39,25 @@ Tested in `React Native`, `NodeJS` not tested
 
 To get a local copy up and running follow these simple example steps.
 
-### 安装
+## 安装
+
+### 对于 React Native
 
 复制`GenShinWishAnalysis.js`文件到你的项目
 
+
+### 对于 NodeJs
+
+1. 复制`GenShinWishAnalysis.js`文件到你的项目
+
+2. 安装`node-fetch`
+	```shell
+	npm install node-fetch
+	```
+3. 在`GenShinWishAnalysis.js`的开头加上
+	```javascript
+	import fetch from 'node-fetch';
+	```
 
 
 <!-- USAGE EXAMPLES -->
